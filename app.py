@@ -58,7 +58,11 @@ DEFAULTS = {
     "chunk_overlap":    150,
     # Embeddings
     "embed_provider":   "huggingface",
-    "embed_model":      "paraphrase-multilingual-MiniLM-L12-v2",
+    "embed_model":      (
+        "all-MiniLM-L6-v2"   # lightweight default — change in sidebar
+        if __import__("os").environ.get("STREAMLIT_SHARING_MODE")
+        else "paraphrase-multilingual-MiniLM-L12-v2"
+    ),
     "ollama_url":       "http://localhost:11434",
     "ollama_model":     "nomic-embed-text",
     "device":           "cpu",
