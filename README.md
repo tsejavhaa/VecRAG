@@ -237,15 +237,6 @@ All settings live in the sidebar — no config files to edit.
 
 ---
 
-## Adding the Demo GIF
-
-1. Record a short screen capture of the full workflow (upload → embed → search → ask)
-2. Convert to GIF or use a `.gif`-compatible format (e.g. with [LICEcap](https://www.cockos.com/licecap/) on Mac/Windows or [peek](https://github.com/phw/peek) on Linux)
-3. Save as `images/demo.gif`
-4. The README will automatically display it at the top
-
----
-
 ## Requirements
 
 ```
