@@ -122,7 +122,7 @@ vecrag/
 ### 2. Clone & install
 
 ```bash
-git clone https://github.com/your-username/vecrag.git
+git clone https://github.com/tsejavhaa/vecrag.git
 cd vecrag
 
 pip install -r requirements.txt
