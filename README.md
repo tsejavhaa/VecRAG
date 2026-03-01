@@ -18,6 +18,7 @@
 [![ChromaDB](https://img.shields.io/badge/ChromaDB-0.5%2B-purple?style=flat-square)](https://www.trondatadb.dev/)
 [![Ollama](https://img.shields.io/badge/Ollama-local-green?style=flat-square)](https://ollama.com/)
 
+ https://vecrag-5ap6yunnmxwk2gut8jcses.streamlit.app/
 </div>
 
 ---
